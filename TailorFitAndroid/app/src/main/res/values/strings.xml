@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TailorFitAndroid</string>
+    <string name="measurements">Measurements</string>
+    <string name="capture">Capture</string>
+    <string name="measurements_will_be_displayed_here">Measurements will be displayed here</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="body_measurement">Body Measurement</string>
+</resources>
