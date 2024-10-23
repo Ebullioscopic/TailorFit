@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5310D5A2CC8A10C00CD7F16 /* ViTOnHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5310D592CC8A0FD00CD7F16 /* ViTOnHomeView.swift */; };
 		F550500D2CA6E3BB0005C24A /* TailorFitiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550500C2CA6E3BB0005C24A /* TailorFitiOSApp.swift */; };
 		F550500F2CA6E3BB0005C24A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F550500E2CA6E3BB0005C24A /* ContentView.swift */; };
 		F55050112CA6E3BD0005C24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55050102CA6E3BD0005C24A /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5310D592CC8A0FD00CD7F16 /* ViTOnHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViTOnHomeView.swift; sourceTree = "<group>"; };
 		F55050092CA6E3BB0005C24A /* TailorFitiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TailorFitiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F550500C2CA6E3BB0005C24A /* TailorFitiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailorFitiOSApp.swift; sourceTree = "<group>"; };
 		F550500E2CA6E3BB0005C24A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				F550500C2CA6E3BB0005C24A /* TailorFitiOSApp.swift */,
 				F550500E2CA6E3BB0005C24A /* ContentView.swift */,
+				F5310D592CC8A0FD00CD7F16 /* ViTOnHomeView.swift */,
 				F55050102CA6E3BD0005C24A /* Assets.xcassets */,
 				F55050122CA6E3BD0005C24A /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F550500F2CA6E3BB0005C24A /* ContentView.swift in Sources */,
+				F5310D5A2CC8A10C00CD7F16 /* ViTOnHomeView.swift in Sources */,
 				F550500D2CA6E3BB0005C24A /* TailorFitiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

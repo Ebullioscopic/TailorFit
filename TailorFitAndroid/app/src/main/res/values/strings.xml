@@ -5,4 +5,7 @@
     <string name="measurements_will_be_displayed_here">Measurements will be displayed here</string>
     <string name="capture_image">Capture Image</string>
     <string name="body_measurement">Body Measurement</string>
+    <string name="size">Size:</string>
+    <string name="calculate">Calculate</string>
+    <string name="height_cm">Height (cm)</string>
 </resources>

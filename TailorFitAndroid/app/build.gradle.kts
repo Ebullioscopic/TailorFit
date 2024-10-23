@@ -17,6 +17,7 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -26,6 +27,12 @@ android {
             )
         }
     }
+
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -34,6 +41,18 @@ android {
         jvmTarget = "1.8"
     }
 }
+
+//dependencies {
+//    // CameraX dependencies
+//    implementation("androidx.camera:camera-core:1.2.0")
+//    implementation("androidx.camera:camera-camera2:1.2.0")
+//    implementation("androidx.camera:camera-lifecycle:1.2.0")
+//    implementation("androidx.camera:camera-view:1.2.0")
+//
+//    // ML Kit Pose Detection
+//    implementation("com.google.mlkit:pose-detection:18.0.0")
+//    implementation('com.google.mlkit:pose-detection-legacy:16.0.0')
+//}
 
 dependencies {
 
@@ -53,6 +72,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.vision.common)
     implementation(libs.pose.detection.common)
+    implementation(libs.mlkit.pose.detection)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
