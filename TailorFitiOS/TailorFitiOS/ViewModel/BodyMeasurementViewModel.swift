@@ -1,3 +1,11 @@
+//
+//  BodyMeasurementViewModel.swift
+//  TailorFitiOS
+//
+//  Created by admin63 on 28/10/24.
+//
+
+
 class BodyMeasurementViewModel: ObservableObject {
     @Published var measurements: BodyMeasurements?
     @Published var processingImage = false

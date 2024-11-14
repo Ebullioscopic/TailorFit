@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,6 +48,12 @@
 		F55050292CA6E3BD0005C24A /* TailorFitiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailorFitiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F5E50D382CCF40D6009BDC80 /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		F5E50D3A2CCF4101009BDC80 /* ViewModel */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewModel; sourceTree = "<group>"; };
+		F5FA57512CD9CEE300CBA988 /* ML */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ML; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		F55050062CA6E3BB0005C24A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -76,10 +82,13 @@
 		F55050002CA6E3BB0005C24A = {
 			isa = PBXGroup;
 			children = (
+				F5E50D382CCF40D6009BDC80 /* Model */,
 				F550500B2CA6E3BB0005C24A /* TailorFitiOS */,
 				F550501C2CA6E3BD0005C24A /* TailorFitiOSTests */,
 				F55050262CA6E3BD0005C24A /* TailorFitiOSUITests */,
 				F550500A2CA6E3BB0005C24A /* Products */,
+				F5E50D3A2CCF4101009BDC80 /* ViewModel */,
+				F5FA57512CD9CEE300CBA988 /* ML */,
 			);
 			sourceTree = "<group>";
 		};
